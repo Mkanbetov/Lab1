@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// функция считает сумму элементов массива
 int sum(int arr[], int size) {
     int s = 0;
     for(int i = 0; i < size; i++) {
@@ -10,9 +11,12 @@ int sum(int arr[], int size) {
 }
 
 int main() {
+    // программа выводит приветствие и сумму элементов массива
     cout << "Hello World" << endl;
 
     int arr[5] = {1, 2, 3, 4, 5};
+
+    // вывод суммы массива
     cout << "Sum: " << sum(arr, 5) << endl;
 
     return 0;

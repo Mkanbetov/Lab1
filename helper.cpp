@@ -10,3 +10,10 @@ int findMax(int arr[], int size) {
     }
     return max;
 }
+int main() {
+    int arr[] = {3,7,2,9,5};
+    int size = 5;
+    int max = findMax (arr,size);
+    cout <<"Max:"<<max<<endl;
+    return 0;
+}

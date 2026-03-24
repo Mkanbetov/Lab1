@@ -11,12 +11,12 @@ int sum(int arr[], int size) {
 }
 
 int main() {
-    // программа выводит приветствие и сумму элементов массива
+    // программа выводитприветсвие  и сумму элементов массива
     cout << "Hello World" << endl;
 
     int arr[5] = {1, 2, 3, 4, 5};
 
-    // вывод суммы массива
+    // vyvod summy massiva
     cout << "Sum: " << sum(arr, 5) << endl;
 
     return 0;
